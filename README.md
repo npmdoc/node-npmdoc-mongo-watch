@@ -1,4 +1,7 @@
-# api documentation for  [mongo-watch (v0.2.8)](http://github.com/TorchlightSoftware/mongo-watch)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongo-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongo-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongo-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongo-watch)
+# npmdoc-mongo-watch
+
+#### basic api documentation for  [mongo-watch (v0.2.8)](http://github.com/TorchlightSoftware/mongo-watch)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongo-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongo-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongo-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongo-watch)
+
 #### A mongo watcher.  This ties into the MongoDB replication oplog, and exposes all data modifications via an EventEmitter.
 
 [![NPM](https://nodei.co/npm/mongo-watch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongo-watch)
@@ -67,7 +70,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.2.8"
+    "version": "0.2.8",
+    "bin": {}
 }
 ```
 
